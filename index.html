@@ -1,3 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  df-messenger {
+    --df-messenger-bot-message: #5F146A;
+    --df-messenger-button-titlebar-color: #EEA421;
+    --df-messenger-chat-background-color: #eee;
+    --df-messenger-font-color: #eee;
+    --df-messenger-send-icon: #5F146A;
+    --df-messenger-user-message: #F0B152;
+    --df-messenger-input-placeholder-font-color: #FFF;
+  }
+
+  html, body {
+    height: 100% !important;
+    width: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #idiv {
+      
+  }
+
+  chat-wrapper[opened="true"] {
+      width: 600px !important;
+      height: 600px !important;
+    }
+
+  divisor{
+    position: fixed;
+    top: 41px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+</style>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chatbot OVAN</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<div class="divisor">
+
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
@@ -6,18 +56,9 @@
   language-code="pt-br"
   chat-icon="https://storage.googleapis.com/cloud-ai-platform-2c3566aa-2af4-443f-8f56-efd990a4fdf8/bot-icon2.png"
 ></df-messenger>
-<style>
-  df-messenger {
-    --df-messenger-bot-message: #eea421;
-    --df-messenger-button-titlebar-color: #EEA421;
-    --df-messenger-chat-background-color: #eee;
-    --df-messenger-font-color: #ffffff;
-    --df-messenger-send-icon: #5F146A;
-    --df-messenger-user-message: #299aff;
-    --df-messenger-input-placeholder-font-color: #FFF;
-    --df-messenger-icon: url('https://tiinside.com.br/wp-content/uploads/2017/08/Char-bot-bots.jpg');
-    --df-messenger-chat-bubble-background: #FFC200;
+  
+</div>
+  
+</body>
 
-
-  }
-</style>
+</html>
